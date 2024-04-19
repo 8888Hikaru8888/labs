@@ -102,6 +102,7 @@
 </html>
 ```
 <h2 align = "center">Файл 2.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -125,6 +126,7 @@
 </html>
 ```
 <h2 align = "center">Файл 3.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -161,6 +163,7 @@
 </html>
 ```
 <h2 align = "center">Файл 4.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -194,6 +197,7 @@
 </html>
 ```
 <h2 align = "center">Файл 5.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -224,6 +228,7 @@
 </html>
 ```
 <h2 align = "center">Файл 7.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -256,6 +261,7 @@
 </html>
 ```
 <h2 align = "center">Файл 8.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -294,6 +300,7 @@
 </html>
 ```
 <h2 align = "center">Файл 10.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -339,6 +346,7 @@
 </html>
 ```
 <h2 align = "center">Файл 11.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -381,6 +389,7 @@
 </html>
 ```
 <h2 align = "center">Файл 13.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -584,6 +593,7 @@ function showSlides(n) {
 </html>
 ```
 <h2 align = "center">Файл 18.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -653,6 +663,7 @@ function showSlides(n) {
 </html>
 ```
 <h2 align = "center">Файл 19.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -842,6 +853,7 @@ body {
 </html>
 ```
 <h2 align = "center">Файл 22.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -983,6 +995,7 @@ body {
 </html>
 ```
 <h2 align = "center">Файл 24.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -1019,6 +1032,7 @@ body {
 </html>
 ```
 <h2 align = "center">Файл 25.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -1077,6 +1091,7 @@ body {
 </html>
 ```
 <h2 align = "center">Файл 26.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="ru">
