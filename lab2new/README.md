@@ -214,6 +214,7 @@
 </html>
 ```
 <h2 align = "center">Файл 6.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -361,6 +362,7 @@
 </html>
 ```
 <h2 align = "center">Файл 12.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -406,6 +408,7 @@
 </html>
 ```
 <h2 align = "center">Файл 14.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -501,6 +504,7 @@ function showSlides(n) {
 </html>
 ```
 <h2 align = "center">Файл 15.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -828,6 +832,7 @@ body {
 </html>
 ```
 <h2 align = "center">Файл 21.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -881,6 +886,7 @@ body {
 </html>
 ```
 <h2 align = "center">Файл 23.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
