@@ -535,6 +535,7 @@ function showSlides(n) {
 </html>
 ```
 <h2 align = "center">Файл 16.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -549,6 +550,7 @@ function showSlides(n) {
 </html>
 ```
 <h2 align = "center">Файл 17.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html>
