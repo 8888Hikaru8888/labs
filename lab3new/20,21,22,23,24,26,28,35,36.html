@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f0f0f0;
+        }
+        .button{
+            background-color: rgb(207, 132, 132);
+            animation: glowing 1000ms infinite;
+            color: white;
+           
+        }
+        .button1{
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button2{
+            transition: background-color 0.3s, color 0.3s;
+            opacity: 0;
+        }
+        @keyframes glowing{
+            0% {background-color: rgb(255, 0, 0); box-shadow: 0 0 3px #b27a00;}
+            25% {background-color: rgb(255, 253, 127);box-shadow: 0 0 15px #263d42;color: black;}
+            75% {background-color: rgb(255, 0, 0);box-shadow: 0 0 3px #b27a00;}
+            100% {background-color: rgb(255, 120, 120);box-shadow: 0 0 15px #263d42;color: black;}
+        }
+        a{
+            color:antiquewhite;
+            background-color: cadetblue;
+        }
+        a:hover{
+            color: #000;
+            background-color: aliceblue;
+        }
+        .button1:hover {
+            background-color: rgb(68, 27, 77);
+            color: white;
+           
+        }
+        .button2:hover {
+            background-color: rgb(217, 163, 230);
+            color: rgb(22, 22, 22);
+            opacity: 1;
+            transition: 2s;
+           
+        }
+        div{
+            padding: 10px;
+            color:violet
+        }
+        heading *{
+            font-size: 18px;
+        }
+        img{
+            width: 10%;
+            border: 14px solid rgb(171, 68, 169);
+        }
+    </style>
+</head>
+<body>
+    <!--<a class="button" href="#"-->
+    <button type="submit" class="button">Shine</button>
+    <button type="submit" class="button1">Dark</button>
+    <button type="submit" class="button2">Hide</button>
+    <div>--------------------------------------------</div>
+    <div style="width: 60px; height: 17px;">
+        <a class="button3" href="#1s">1s</a>
+        <a class="button3" href="#2s">2s</a>
+        <a class="button3" href="#3s">3s</a>
+    </div>
+    <div>--------------------------------------------</div>
+    <img src="IMG_0794.PNG">
+    <div>--------------------------------------------</div>
+    <heading>
+        <h1>Hello world</h1>
+        <h2>Hello world</h2>
+        <h3>Hello world</h3>
+        <h4>Hello world</h4>
+        <h5>Hello world</h5>
+        <h6>Hello world</h6>
+    </heading>
+    
+</body>
+</html>

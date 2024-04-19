@@ -1,0 +1,28 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px  rgb(121, 63, 121);
+    
+}
+  
+thead, tbody {
+    background: #271616;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(148, 225, 255);
+}
+
+thead th, tbody th, tbody td {
+    
+    border: 6px double rgb(223, 93, 223);
+}
+tbody tr {
+    text-align: center; 
+}
+  
+th, td {
+    padding: 20px;
+}
+table tr:nth-child(even) {
+    background-color: rgb(101, 101, 101);
+    }
