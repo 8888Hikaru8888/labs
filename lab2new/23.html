@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: left;
+        }
+      </style>
+</head>
+<body>
+    <h2>Таблица с возможностью сортировки и фильтрации</h2>
+
+<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Фильтр...">
+
+<table id="myTable">
+  <tr>
+    <th onclick="sortTable(0)">Название</th>
+    <th onclick="sortTable(1)">Цена</th>
+    <th onclick="sortTable(2)">Описание</th>
+  </tr>
+  <tr>
+    <td>Сандалии Джобса</td>
+    <td>$218,7 тыс.</td>
+    <td>Коричневые замшевые сандалии марки Birkenstock, которые в 1970–1980-х гг. носил основатель Apple Стив Джобс</td>
+  </tr>
+  <tr>
+    <td>Джинсы XIX века</td>
+    <td>$87,4 тыс.</td>
+    <td>Пара джинсов бренда Levi&#x27;s 1880 г., была найдена в заброшенной шахте</td>
+  </tr>
+  <tr>
+    <td>Последнее письмо Леннона</td>
+    <td>$63,8 тыс.</td>
+    <td>Письмо участника группы Beatles Джона Леннона, написанное за несколько часов до его смерти</td>
+  </tr>
+  <tr>
+    <td>Первый </strong>iPhone<strong></td>
+    <td>$35,4 тыс.</td>
+    <td>О том, что эта модель — одна из самых старых, говорит изображение на коробке iPhone: на ней изображено устройство с 12 иконками, а тринадцатая иконка — iTunes — появилась в конце 2007 г.</td>
+  </tr>
+</table>
+
+<script>
+  function sortTable(n) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.getElementById("myTable");
+    switching = true;
+    dir = "asc";
+    while (switching) {
+      switching = false;
+      rows = table.rows;
+      for (i = 1; i < (rows.length - 1); i++) {
+        shouldSwitch = false;
+        x = rows[i].getElementsByTagName("TD")[n];
+        y = rows[i + 1].getElementsByTagName("TD")[n];
+        if (dir == "asc") {
+          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+            shouldSwitch= true;
+            break;
+          }
+        } else if (dir == "desc") {
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            shouldSwitch= true;
+            break;
+          }
+        }
+      }
+      if (shouldSwitch) {
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+        switching = true;
+        switchcount ++;
+      } else {
+        if (switchcount == 0 && dir == "asc") {
+          dir = "desc";
+          switching = true;
+        }
+      }
+    }
+  }
+
+  function filterTable() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
+
+</body>
+</html>

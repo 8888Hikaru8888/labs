@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dragElement {
+            width: 100px;
+            height: 100px;
+            background-color: #a58787;
+            border: 2px solid #2b2b2b;
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        #dropArea {
+            width: 200px;
+            height: 200px;
+            border: 6px dashed #494848;
+            background-color: #d3f3e9;
+            margin: 20px;
+            position: relative;
+            text-align: center;
+            left: 120px;
+            top:230px;
+        }
+      </style>
+      <script>
+            function dragStart(event) {
+      event.dataTransfer.setData("text", event.target.id);
+    }
+
+    function allowDrop(event) {
+      event.preventDefault();
+    }
+
+    function drop(event) {
+      event.preventDefault();
+      var data = event.dataTransfer.getData("text");
+      var draggedElement = document.getElementById(data);
+      if (draggedElement) {
+        var dropArea = event.target;
+        dropArea.appendChild(draggedElement);
+        draggedElement.style.position = "relative";
+        draggedElement.style.left = "0px";
+        draggedElement.style.top = "0px";
+      }
+    }
+      </script>
+</head>
+<body>
+    <div id="dragElement" draggable="true" ondragstart="dragStart(event)">Неси меня</div>
+    <div id="dropArea" ondrop="drop(event)" ondragover="allowDrop(event)">Кровать</div>
+</body>
+</html>

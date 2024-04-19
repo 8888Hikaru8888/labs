@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма заказа товара</title>
+  
+</head>
+<body>
+  <h2>Заказ товара</h2>
+  <form method="post">
+    <div>
+      <label for="product">Выберите товар:</label>
+      <select id="product" name="product">
+        <option value="товар1">Сандалии Джобса(не оригинал)</option>
+        <option value="товар2">Джинсы XIX века</option>
+        <option value="товар3">Последнее письмо Леннона(копия)</option>
+      </select>
+    </div>
+    <div>
+      <label for="quantity">Количество:</label>
+      <input type="number" id="quantity" name="quantity" min="1" value="1" max="40">
+    </div>
+    <button type="submit">Отправить заказ</button>
+  </form>
+</body>
+</html>

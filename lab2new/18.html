@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Свяжитесь с нами</h1>
+    <form id="contactForm" onsubmit="return validateForm()">
+        <div>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name">
+            <span id="nameError" class="error"></span>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <span id="emailError" class="error"></span>
+        </div>
+        <div>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message"></textarea>
+            <span id="messageError" class="error"></span>
+        </div>
+        <input type="submit" value="Отправить">
+    </form>
+
+    <script>
+        function validateForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            var isValid = true;
+
+            if (name === "") {
+                document.getElementById('nameError').innerText = "Пожалуйста, введите ваше имя";
+                isValid = false;
+            } else {
+                document.getElementById('nameError').innerText = "";
+            }
+
+            if (email === "" || !email.includes("@")) {
+                document.getElementById('emailError').innerText = "Пожалуйста, введите корректный email";
+                isValid = false;
+            } else {
+                document.getElementById('emailError').innerText = "";
+            }
+
+            if (message === "") {
+                document.getElementById('messageError').innerText = "Пожалуйста, введите сообщение";
+                isValid = false;
+            } else {
+                document.getElementById('messageError').innerText = "";
+            }
+
+            return isValid;
+        }
+    </script>
+</body>
+</html>
