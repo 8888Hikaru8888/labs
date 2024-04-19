@@ -82,6 +82,7 @@
 •	Материалом в сети интернет;
 
 <h2 align = "center">Файл 1-10,17,25.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -147,6 +148,7 @@
 </html>
 ```
 <h2 align = "center">Файл 11,18,19,32,34.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -179,6 +181,7 @@
 </html>
 ```
 <h2 align = "center">Файл 12,13,29.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -226,6 +229,7 @@
 </html>
 ```
 <h2 align = "center">Файл 14.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -267,6 +271,7 @@
 </html>
 ```
 <h2 align = "center">Файл 16,27.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -312,6 +317,7 @@
 </html>
 ```
 <h2 align = "center">Файл 20,21,22,23,24,26,28,35,36.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -402,6 +408,7 @@
 </html>
 ```
 <h2 align = "center">Файл 30,31.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -431,6 +438,7 @@
 </html>
 ```
 <h2 align = "center">Файл 33.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
