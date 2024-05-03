@@ -277,6 +277,7 @@
 </html>
 ```
 <h2 align = "center">Файл 9.html</h2>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -300,6 +301,7 @@
 </body>
 </html>
 ```
+
 <h2 align = "center">Файл 10.html</h2>
 
 ```html
