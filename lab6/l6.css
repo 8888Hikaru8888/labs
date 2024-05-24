@@ -1,0 +1,42 @@
+/*1*/
+div p
+/*2*/
+div h2
+/*3*/
+#test p
+/*4*/
+#test h2
+/*5*/
+.bbb
+/*6*/
+#test .bbb
+/*7*/
+p.bbb
+/*8*/
+h2.bbb
+/*9*/
+#test .bbb
+/*10*/
+.bbb, .xxx
+/*11*/
+p.bbb, h2.xxx
+/*12*/
+#test p.bbb, #test p.xxx
+/*13*/
+.fff
+/*14*/
+p.fff
+/*15*/
+p.fff
+/*16*/
+.fff .bbb
+/*17*/
+.fff h2.bbb
+/*18*/
+#test a:link, #test a:visited { text-decoration: none; color: red; } #test a:hover { text-decoration: underline; color: blue; }
+/*19*/
+a.www:link, a.www:visited { text-decoration: underline; color: blue; } a.www:hover { text-decoration: none; }
+/*20*/
+#test a.www { color: aliceblue; }
+/*21*/
+.eee a.www { color: aquamarine;}
