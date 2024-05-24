@@ -204,10 +204,10 @@ a.www:link, a.www:visited { text-decoration: underline; color: blue; } a.www:hov
 # Результат
 <img src="l61.png">
 <img src="l62.png">
-<img src="6-1.png">
-<img src="6-2.png">
-<img src="6-3.png">
-<img src="6-4.png">
+<img src="61-1.png">
+<img src="61-2.png">
+<img src="61-3.png">
+<img src="61-4.png">
 
 # Вывод
 
