@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(167, 92, 210);
+  }
+  
+  .content {
+    width: 100%;
+    background-color: rgb(204, 141, 141);
+    padding: 20px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  
+    .content {
+      width: 70%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  
+    .content {
+      width: 80%;
+    }
+  }

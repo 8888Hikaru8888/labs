@@ -1,0 +1,19 @@
+table{
+    width: 400px;
+    height:200px;
+    vertical-align: top;
+    border-style: dashed;
+}
+th{
+    text-align: left;
+    vertical-align: text-top;
+    border-style: dotted;
+}
+td{
+    text-align: center;
+    font-weight:bold;
+    border-style: dashed;
+}
+th,h1,h2{
+    font-weight: normal;
+}

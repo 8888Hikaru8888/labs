@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+$bann = 5;
+$lim = 10;
+$together  =$bann +$lim;
+define("pi",3.14);
+$bool = TRUE;
+$string1= "HAHAHAH";
+$string2= "6768";
+//pi=6;
+//echo "Kolichestvo fructov ","<br />",$together,"  " ,pi;
+//echo gettype($bann)," ",2+2, " ", 5%4," ", 7*9, " ", 1-9," ", 1/970," ";
+//echo gettype(pi),"<br>";
+//echo gettype($string2)," ",gettype($bool)," ", gettype($string1);
+$speed= 40;
+if ($speed < 20)
+	{
+	echo "brrrrrrrrrr", "<br>";}
+elseif($speed==50) echo "normalno","<br>";
+elseif($speed==40) echo "da normalno","<br>";
+elseif($speed==30) echo "eyynormalno","<br>";
+elseif($speed==20) echo "dopustim","<br>";
+else echo "превышение","<br>";
+$spid=80;
+echo ($spid <=60)? "congratz no sp": "gz spid";
+echo "<br>";
+$month=3;
+switch($month)
+{
+	case 1: echo "январь";break;
+    case 2: echo "февраль";break;
+    case 3: echo "март";break;
+    case 4: echo "апрель";break;
+    case 5: echo "май";break;
+    case 6: echo "июнь";break;
+    case 7: echo "июль";break;
+    case 8: echo "август";break;
+    case 9: echo "сентябрь";break;
+    case 10: echo "октябрь";break;
+    case 11: echo "нояюрь";break;
+    case 12: echo "декабрь";break;
+    default: echo "hren";break;
+    
+}
+echo "<br>";
+for($i=0;$i<6;$i++){
+	echo $i,"<br>";
+}
+echo "<br>";
+$bt=0;
+do{
+	echo "hu";
+    $bt++;
+}
+while($bt<7);
+echo "<br>";
+$array = array("hahah", "hfhfh", "kki","pgkgl");
+foreach ($array as $value) {
+	echo $value,"<br>";
+}
+
+
+
+1 zad
+function myf($arr) {
+    sort($arr);
+    $fString = reset($arr);
+    $res = implode("***", str_split($fString));
+    return $res;
+}
+
+
+$arr = ["aaaaapra", "apple", "ban", "ara","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "AaAaA"];
+echo myf($arr); 
+?>
+</body>
+</html>

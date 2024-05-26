@@ -1,0 +1,60 @@
+
+.static-element {
+    position: static;
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+  .relative-element {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightgreen;
+    padding: 10px;
+  }
+  
+
+  .absolute-element {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: lightyellow;
+    padding: 10px;
+  }
+  
+ 
+  .fixed-element {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: lightpink;
+    padding: 10px;
+  }
+  
+ 
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: lightgray;
+  }
+  
+  .flex-item {
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: lightcyan;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: lightblue;
+    padding: 10px;
+  }

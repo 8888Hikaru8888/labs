@@ -1,0 +1,32 @@
+.animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-500px);
+      background-color: rgb(0, 255, 42);
+    }
+    75% {
+        transform: translateX(500px);
+        background-color: rgb(177, 39, 39);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
